@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LP Soldiers Test</string>
+    
+    <string name="traducao">Linkin Park the best band ever !</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt1">Main Menu</string>
+    <string name="bt2">Consult</string>
+    <string name="bt3">Save</string>
+    <string name="bt4">Questionary</string>
+    <string name="bt5">Consult</string> 
+    <string name="bt6">Main Menu</string>
+    <string name="bt7">Questionary</string>
+    <string name="bt8">Delete Data</string>
+    <string name="btCall">Call me</string>
+     <string name="dd">Choose the rigth:</string>
+    <string name="cdd">Say your Favourite music:</string>
+    <string name="cc">Say your Favourite Member:</string>
+    <string name="tv1">Members:</string>
+    <string name="tv2">Favourite Member:</string>
+    <string name="tv3">Favourite music:</string>
+    <string name="btPic">Have a picture</string>
+</resources>

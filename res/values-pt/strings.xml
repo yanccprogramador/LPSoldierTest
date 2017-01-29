@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LP Soldiers Teste</string>
+    <string name="hello_world">Linkin Park the best band ever !</string>
+    <string name="traducao">Linkin Park melhor banda de sempre !</string>
+    <string name="action_settings">Settings</string>
+    <string name="bt1">Menu Principal</string>
+    <string name="bt2">Consulta</string>
+    <string name="bt3">Gravar</string>
+    <string name="bt4">Questionário</string>
+    <string name="bt5">Consulta</string> 
+    <string name="bt6">Menu Principal</string>
+    <string name="bt7">Questionário</string>
+    <string name="bt8">Apagar Dados</string>
+    <string name="btCall">Me ligue</string>
+     <string name="dd">Selecione o Correto:</string>
+    <string name="cdd">Diga Sua Musica Favorita:</string>
+    <string name="cc">Diga Seu Membro Favorito:</string>
+    <string name="tv1">Membros:</string>
+    <string name="tv2">Membro Favorito:</string>
+    <string name="tv3">Musica Favorita:</string>
+    <string name="btPic">Tire uma Foto</string>
+</resources>

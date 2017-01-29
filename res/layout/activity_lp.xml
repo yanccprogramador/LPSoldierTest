@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    android:orientation="vertical"
+    android:overScrollMode="always"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical"
+    tools:context="br.com.yan.lp.lpsoldierstest.Lp" >
+
+        <TextView
+            android:id="@+id/dd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dd"
+            android:textColor="#FFFFFF" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF" >
+
+            <RadioButton
+                android:id="@+id/rbt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mike Shinoda,Chester Bennington,Mr hann,Phoenix,Rob Bourdon,Brad Delson"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/rbt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mike Shinoda,Chester Bennington,Mr hann,Phoenix"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/rbt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mike Shinoda,Chester Bennington,Mr hann,Phoenix,Rob Bourdon,Slash"
+                android:textColor="#FFFFFF" />
+
+            <RadioButton
+                android:id="@+id/rbt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mike Shinoda,Chester Bennington,Mr hann,Phoenix,Kurt Cobain,Slash"
+                android:textColor="#FFFFFF" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/cc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cc"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/favoritos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/cdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cdd"
+            android:textColor="#FFFFFF" />
+
+        <EditText
+            android:id="@+id/musica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+
+        <RelativeLayout
+            android:id="@+id/rl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:text="@string/bt3" />
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/bt1" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:text="@string/bt2" />
+
+            <Button
+                android:id="@+id/btPic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bt1"
+                android:layout_toLeftOf="@+id/bt2"
+                android:text="@string/btPic" />
+
+        </RelativeLayout>
+
+ </LinearLayout>
